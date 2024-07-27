@@ -1,0 +1,28 @@
+::-webkit-scrollbar{
+    width: 4px;
+    height: 2px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+}
+
+
+.table thead{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.pointer{
+    cursor:pointer;
+}
+
+.bg-black{
+    background-color: black !important;
+    color: white;
+}
+
+.color.dark{
+    color: white;
+}
