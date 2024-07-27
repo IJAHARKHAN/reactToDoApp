@@ -60,9 +60,9 @@ if (isChecked) {
   return (
     <>   
    
-    
-     <div className="shadow p-3 mb-5 bg-body-tertiary rounded w-50 mx-auto mt-4" data-bs-theme={theme}> 
-     <div className={`d-flex justify-content-between color ${theme}`}>
+    <div className='p-4'>
+     <div className="shadow p-3 mb-5 bg-body-tertiary rounded w-50_ col-md-6 mx-auto mt-4" data-bs-theme={theme}> 
+     <div className={`d-flex justify-content-between flex-wrap color ${theme}`}>
       <h3>Update</h3> 
       <div className="form-check form-switch">        
         <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Enable Dark Mode</label>
@@ -89,7 +89,8 @@ if (isChecked) {
             </form>
           </div>
         </div>
-        </div>    
+        </div>   
+        </div> 
     
     </>
   )

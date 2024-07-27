@@ -87,10 +87,10 @@ if (isChecked) {
   return (
     <>   
    
-    
-     <div className="shadow p-3 mb-5 bg-body-tertiary rounded w-50 mx-auto mt-4 bg-black_" data-bs-theme={theme}> 
+    <div className="p-4">
+     <div className="shadow p-3 mb-5 bg-body-tertiary rounded w-50_ col-md-6 mx-auto mt-4 bg-black_" data-bs-theme={theme}> 
      
-      <div className={`d-flex justify-content-between color ${theme}`}>
+      <div className={`d-flex justify-content-between flex-wrap color ${theme}`}>
       <h3>List</h3> 
       <div><Link to="/" className="btn btn-primary btn-sm">Go to Create</Link></div>
       
@@ -105,7 +105,9 @@ if (isChecked) {
 <div className="row">
   <div className="col-12">
     <div className="d-flex justify-content-end mb-2">
-      <input type="search" name="" id="" className='form-control form-control-sm w-25' placeholder='Search List Item...' onChange={(e) => setSearchInput(e.target.value.toLowerCase())}/>
+      <div className='col-md-4 col-sm-6 col-12'>
+      <input type="search" name="" id="" className='form-control form-control-sm w-25_ col-md-5_' placeholder='Search List Item...' onChange={(e) => setSearchInput(e.target.value.toLowerCase())}/>
+      </div>
     </div>
   </div>
 </div>
@@ -145,6 +147,7 @@ if (isChecked) {
           </div>
         </div>
         </div>    
+        </div>
     
     </>
   )
